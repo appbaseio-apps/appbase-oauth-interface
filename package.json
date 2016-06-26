@@ -1,0 +1,38 @@
+{
+  "name": "appbase-oauth2",
+  "version": "1.0.0",
+  "description": "Interfacing Appbase.io with Socket.io & OAuth2",
+  "main": "index.js",
+  "dependencies": {
+    "appbase-js": "^0.10.7",
+    "body-parser": "^1.15.2",
+    "connect-appbase": "0.0.1",
+    "connect-mongo": "^1.2.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.5.1",
+    "nsp": "^2.4.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-twitter": "^1.0.4",
+    "passport.socketio": "^3.6.1",
+    "socket.io": "^1.4.6",
+    "socketio-wildcard": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizulhakim/appbase-oauth2.git"
+  },
+  "author": "Azizul Hakim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azizulhakim/appbase-oauth2/issues"
+  },
+  "homepage": "https://github.com/azizulhakim/appbase-oauth2#readme"
+}

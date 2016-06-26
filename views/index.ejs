@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>AppbaseOAuth2</title>
+	
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    
+	<style>
+        body        { padding-top:80px; }
+    </style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<div class="jumbotron text-center">
+			<h1><span class="fa fa-lock"></span>Appbase + OAuth2</h1>
+			
+			<form action="/login" method="post" enctype="application/x-www-form-urlencoded">
+				<select class="form-control" name="role">
+					<option value="admin">admin</option>
+					<option value="user">user</option>
+					<option value="guest">guest</option>
+				</select>
+
+				<p>Login or Register with:</p>
+				<button type="submit" name="action" value="facebook" class="btn btn-primary"><span class="fa fa-facebook"></span> Facebook</button>
+				<button type="submit" name="action" value="twitter" class="btn btn-info"><span class="fa fa-twitter"></span> Twitter</button>
+			</form>
+		</div>
+
+	</div>
+</body>
+
+</html>  
